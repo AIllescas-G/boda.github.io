@@ -1,0 +1,35 @@
+.main-menu {
+  position: relative;
+  left: 0;
+  .main-button {
+    position: fixed;
+  width: 60%;
+  height: 100vh;
+  background-color: aliceblue;
+  z-index: 99;
+  transition: right 0.3s ease;
+  opacity: 0.98;
+  -webkit-box-shadow: 6px 8px 11px -7px rgba(0,0,0,0.39);
+  -moz-box-shadow: 6px 8px 11px -7px rgba(0,0,0,0.39);
+  box-shadow: 6px 8px 11px -7px rgba(0,0,0,0.39);
+}
+
+.none-menu {
+  left: -69%;
+  transition: right 0.3s ease;
+}
+
+}
+
+.button-menu {
+  padding: 4px;
+  top: var(--spacing-20);
+  background-color: var(--primary);
+  right: var(--spacing-20);
+  position: fixed;
+  border-radius: 6px;
+  z-index: 987776;
+  transition: right 0.3s ease;
+}
+
+

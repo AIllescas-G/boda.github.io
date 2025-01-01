@@ -1,0 +1,47 @@
+.container-text {
+    color: var(--whithe);
+    h1 {
+        padding-top: var(--spacing-50);
+        margin-top: var(--spacing-40);
+        margin-bottom: 0;
+    }
+    .line-form {
+        width: var(--spacing-70);
+        margin: 0 auto;
+        height: 1px;
+        background-color: var(--whithe);
+        color: var(--primary);
+        margin-top: var(--spacing-60);
+        margin-bottom: var(--spacing-40);
+        opacity: 0.6;
+    }
+    p {
+        margin-bottom: var(--spacing-70);
+    }
+}
+
+.container-form {
+    background-color: var(--color-fondo);
+    opacity: 0.9;
+    width: 100%;
+    height: auto;
+    padding-bottom: var(--spacing-60)
+}
+
+.button-text {
+    background-color: var(--primary);
+    text-align: center;
+    font-size: 22px;
+    width:100%;
+    padding: 0;
+    padding-bottom: var(--spacing-30);
+}
+
+.label-radio {
+    margin-bottom: var(--spacing-20);
+}
+
+.radio-boda {
+    margin-top: var(--spacing-60);
+}
+

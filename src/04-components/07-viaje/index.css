@@ -1,0 +1,21 @@
+.layout-viaje {
+  background-color: var(--color-fondo);
+  .line-viaje {
+        width: var(--spacing-60);
+  height: 1px;
+  background-color: var(--primary);
+  opacity: 0.8;
+  margin: 0 auto;
+  margin-top: var(--spacing-60);
+  margin-bottom: var(--spacing-40);
+}
+
+h1 {
+  margin-top: var( --spacing-60);
+  color: var(--primary);
+}
+
+p {
+  margin-bottom: var( --spacing-60);
+}
+}

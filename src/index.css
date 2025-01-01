@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  background-color: var(--primary);
+  font-family: "Luthon";
+  margin: 0;
+}
+
+.container-boda {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-text {
+  text-align: left !important;
+}
+
+

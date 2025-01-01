@@ -1,0 +1,37 @@
+.section-bailar {
+    background-color: var(--color-fondo);
+    margin-top: -160px;
+    opacity: 0.9;
+    z-index: 0;
+
+    .title {
+        width: 100%;
+        height: auto;
+        background-color: var(--grdient);
+        text-align: center;
+        margin-top: 160px;
+      
+        .text {
+            margin-top: -5px;
+        }
+
+        h1 {
+            color: var(--primary);
+            padding-top: var(--spacing-50);
+            margin-bottom: var(--spacing-60);
+        }
+
+        .text-content {
+            width: 92%;
+            margin: 0 auto;
+            padding-bottom: var(--spacing-60);
+
+            p {
+                text-align: center;
+                color: var(--primary);
+                margin-bottom: var(--spacing-40);
+                
+            }
+        }
+    }
+}

@@ -1,0 +1,103 @@
+.background {
+    background-color: var(--color-gray-1);
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+    .header {
+        h1 {
+            margin: var(--spacing-40);
+            padding-top: var(--spacing-50);
+            color: var(--whithe);
+        }
+    }
+
+    .pre-boda {
+      
+
+        .restaurante {
+            margin-top: 0;
+            color: var(--primary);
+        }
+        .codigo {
+            margin-top: var(--spacing-20);
+            color: var(--black);
+            margin-bottom: var(--spacing-60);
+        }
+
+        h2 {
+            margin-top: -10px;
+            margin-bottom: var(--spacing-20);
+            color: var(--primary);
+            opacity: 0.6;
+        }
+    }
+
+    .boda {
+
+        h2 {
+            margin-bottom: 0;
+            margin-top:-10px;
+            color: var(--primary);
+            opacity: 0.6;
+        }
+
+        .bloque-hora {
+            margin-bottom: var(--spacing-30);
+
+            p {
+                font-size: var(--font-size-small);
+                color: var(--primary);
+                margin-bottom:0px;
+                margin-top: var(--spacing-40);
+
+            }
+            
+            .normal {
+                font-size: 18px;
+                color: var(--black);
+            }
+        }
+
+        .vestimenta {
+            margin-top: var(--spacing-50);
+            margin-bottom: var(--spacing-80);
+        }
+    }
+}
+
+
+
+.line {
+    width: var(--spacing-60);
+    margin: 0 auto;
+    height: 1px;
+    background-color: var(--primary);
+    color: var(--primary);
+    opacity: 0.6;
+    margin-bottom: var(--spacing-40);
+    margin-top: var(--spacing-40);
+}
+
+span {
+    color: var(--primary);
+    opacity: 0.6;
+}
+
+.hora {
+    padding-top: -10px;
+    margin-top: -10px;
+    font-size: var(--font-size-small);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.whithe {
+    color: var(--primary);
+    opacity: 0.6;
+    
+}
+
+.normal {
+    color: var(--primary);
+    font-size: var(--font-size-small);
+}

@@ -1,0 +1,8 @@
+.section-tran {
+    background-color: var(--color-fondo);
+
+    h1 {
+        color: var(--primary);
+    }
+    
+}

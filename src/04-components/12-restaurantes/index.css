@@ -1,0 +1,22 @@
+.section-res {
+    background-color: var(--color-fondo);
+    height: auto;
+
+    h1 {
+        color: var(--primary);
+      }
+      small {
+        color: var(--primary);
+      }
+      p {
+        color: var(--primary);
+      }
+
+
+    .button-res {
+        margin-top: var(--spacing-30);
+        padding-bottom: var(--spacing-30);
+        border: solid 1px var(--color-gray-1);
+        border-radius: 6px;
+    }
+}
