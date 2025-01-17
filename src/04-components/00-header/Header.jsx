@@ -1,12 +1,7 @@
-import { useEffect } from 'react';
+
 import img1 from './cabecera.png';
 
 export default function Header() {
-
-
-    useEffect(() => {        
-        window.scrollTo(0, 0)
-    }, [])
 
 
     return (

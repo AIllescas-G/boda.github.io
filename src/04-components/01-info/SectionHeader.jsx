@@ -1,6 +1,9 @@
+import { useEffect } from "react";
+
 
 
 export default function SectionHeader() {
+    
     return (
         <div className="layout-background section-bailar">
             <section className="title layout-box">

@@ -1,24 +1,24 @@
 .main-menu {
   position: relative;
-  left: 0;
+  right: 0;
   .main-button {
+    right: 0;
     position: fixed;
-  width: 60%;
-  height: 100vh;
-  background-color: aliceblue;
-  z-index: 99;
-  transition: right 0.3s ease;
-  opacity: 0.98;
-  -webkit-box-shadow: 6px 8px 11px -7px rgba(0,0,0,0.39);
-  -moz-box-shadow: 6px 8px 11px -7px rgba(0,0,0,0.39);
-  box-shadow: 6px 8px 11px -7px rgba(0,0,0,0.39);
-}
+    width: 65%;
+    height: 100vh;
+    background-color: aliceblue;
+    z-index: 99;
+    transition: right 0.3s ease;
+    opacity: 0.98;
+    -webkit-box-shadow: -9px 9px 26px -23px rgba(66, 68, 90, 1);
+    -moz-box-shadow: -9px 9px 26px -23px rgba(66, 68, 90, 1);
+    box-shadow: -9px 9px 26px -23px rgba(66, 68, 90, 1);
+  }
 
-.none-menu {
-  left: -69%;
-  transition: right 0.3s ease;
-}
-
+  .none-menu {
+    transition: right 0.3s ease;
+    display: none;
+  }
 }
 
 .button-menu {
@@ -31,5 +31,3 @@
   z-index: 987776;
   transition: right 0.3s ease;
 }
-
-

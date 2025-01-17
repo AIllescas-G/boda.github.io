@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
-import { dataBoda } from '../../03-assets/dataBoda';
+import { dataBoda } from './dataBoda';
+
 
 
 export const Hotel = () => {

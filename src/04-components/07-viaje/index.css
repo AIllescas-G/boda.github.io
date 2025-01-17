@@ -8,6 +8,8 @@
   margin: 0 auto;
   margin-top: var(--spacing-60);
   margin-bottom: var(--spacing-40);
+
+  
 }
 
 h1 {
@@ -18,4 +20,10 @@ h1 {
 p {
   margin-bottom: var( --spacing-60);
 }
+}
+
+
+a {
+  
+  text-decoration: underline var(--primary);
 }

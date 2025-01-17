@@ -1,11 +1,12 @@
-.container-text {
+.confirma {
     color: var(--whithe);
     h1 {
         padding-top: var(--spacing-50);
         margin-top: var(--spacing-40);
         margin-bottom: 0;
     }
-    .line-form {
+
+     .line-form {
         width: var(--spacing-70);
         margin: 0 auto;
         height: 1px;
@@ -20,12 +21,30 @@
     }
 }
 
+
+
+
+
+
+
+
 .container-form {
     background-color: var(--color-fondo);
     opacity: 0.9;
     width: 100%;
     height: auto;
-    padding-bottom: var(--spacing-60)
+    padding-bottom: var(--spacing-60);
+
+    p {
+        color: var(--primary);
+    }
+    small {
+        color: var(--primary);
+    }
+    label {
+        color: var(--primary);
+    }
+
 }
 
 .button-text {
@@ -45,3 +64,14 @@
     margin-top: var(--spacing-60);
 }
 
+:disabled {
+    background-color: #b1b177 ;
+    color: #818152;
+}
+
+.button-modal {
+    border-radius: 4px;
+    background-color: var(--primary);
+    color: white;
+    padding: 10px 14px 10px 14px;
+  }

@@ -1,5 +1,5 @@
 .escaleras {
-    margin-top: -40px;
+    margin-top: 0;
     @media screen and (min-width: 800px) {
       display: flex;
       justify-content: center;
