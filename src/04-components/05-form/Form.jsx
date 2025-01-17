@@ -27,10 +27,13 @@ export default function Form() {
         body: new URLSearchParams({
           ...data,
           _subject: 'Confirmación de asistencia a la boda', // Asunto personalizado
+          message: `${data.name}${data.apellidos}`,
           _template: 'table', // Plantilla para el correo
           _captcha: 'false',
           _next: '/#confirma', // URL de éxito
-          _error: '/#confirma' // URL de error
+          _error: '/#confirma', // URL de error
+
+
         })
       });
 
