@@ -4,10 +4,10 @@ export default function Transporte() {
     return (
         <section id='tras' className='layout-background section-tran'>
 
-            <div className='layout-box pb-9 '>
+            <div className='layout-box pb-9 text-container '>
                 <h1 className='mb-10 mt-9'>Tranporte</h1>
                 <div className='line'></div>
-                <div className=' text-left flex flex-col gap-6'>
+                <div className=' text-left flex flex-col gap-6  text'>
 
                     <p>Para nuestros invitados que viajan desde Europa u otros continentes, recomendamos volar al Aeropuerto de Madrid-Barajas Adolfo Suárez (MAD) y luego tomar un tren de alta velocidad a Córdoba. A continuación, te explicamos los pasos detallados para hacer este trayecto de la forma más sencilla.</p>
                     <p><b className=' font-bold'>1. Desde el Aeropuerto de Madrid a la Estación de Atocha</b></p>
