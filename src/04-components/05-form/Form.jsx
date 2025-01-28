@@ -74,9 +74,8 @@ export default function Form() {
           <h1>Confirma tu asistencia</h1>
           <div className="line-form"></div>
           <p>
-            Por favor, confirma tu asistencia antes del 31 de Marzo del 2025
-            completando el formulario a continuación. Asegúrate de indicarnos
-            cualquier necesidad alimenticia especial que puedas tener.
+          Por favor, confirma tu asistencia antes del 31 de Marzo del 2025 completando el formulario a continuación. <br />
+          Asegúrate de rellenar un formulario por persona e indicarnos cualquier necesidad alimenticia especial que puedas tener.
           </p>
         </div>
       </div>
@@ -167,7 +166,7 @@ export default function Form() {
           </div>
 
           <button
-            className="rounded-full text-white button-text"
+            className="rounded-full text-white button-text mb-8"
             type="submit"
             disabled={!isValid} // Deshabilitar el botón si el formulario no es válido
           >

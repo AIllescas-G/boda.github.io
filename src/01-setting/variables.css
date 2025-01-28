@@ -60,6 +60,7 @@
   --color-action: rgb(248, 179, 80);
   --color-gray-2: #f2f2f2;
   --color-gray-1: #d6d3cc;
+  --color-gray-3: #72706c;
   --color-fondo: rgba(243,235,211,1);
 
   --font-primary: font-family: "Playfair Display", serif;;
@@ -107,6 +108,23 @@ h3 {
   line-height: 3.4rem;
 }
 
+h4 {
+  font-family: var(--font-secondary);
+  color: var(--font-primary);
+  font-size: 20px;
+  font-weight: var(--font-weight-bold);
+  color: var(--color-white);
+  line-height: 1.6rem;
+}
+
+h5 {
+  font-family: var(--font-secondary);
+  font-size: 18px;
+  font-weight: var(--font-weight-normal);
+  color: var(--color-white);
+  line-height: 1.4rem;
+}
+
 p {
   font-family: "Playfair Display", serif;
   font-size: var(--font-size-medium);
@@ -126,6 +144,8 @@ b {
   letter-spacing: 0em;
   margin: 0;
 }
+
+
 
 small {
   font-family: "Playfair Display", serif;
@@ -151,7 +171,6 @@ small {
   }
 }
 
-
 input {
   border: none;
   width: 100%;
@@ -159,3 +178,4 @@ input {
   padding-bottom:var(--spacing-30) ;
   border-radius: var(--spacing-10);
 }
+

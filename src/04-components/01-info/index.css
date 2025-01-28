@@ -1,8 +1,18 @@
 .section-bailar {
     background-color: var(--color-fondo);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: -160px;
     opacity: 0.9;
     z-index: 0;
+    
+    .img-logo {
+        width: 84%;
+        height: auto;
+        margin: 0 auto;
+        padding: var(--spacing-60)  var(--spacing-60) ;
+    }
 
     .title {
         width: 100%;

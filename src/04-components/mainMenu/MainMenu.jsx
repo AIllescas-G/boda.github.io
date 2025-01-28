@@ -54,7 +54,7 @@ export default function MainMenu() {
                         <button onClick={onClickHome}> Home </button>
                         <button onClick={onClickItinerario}> Itinerario  </button>
                         <button onClick={onClickConfirma}> Confima asistencia  </button>
-                        <button onClick={onClickPlanea}> Planea vieje  </button>
+                        <button onClick={onClickPlanea}> Planea tu viaje </button>
                         <button onClick={onClickHotel}> Hospedaje </button>
                         <button onClick={onClickTransporte}> Transporte </button>
                         <button onClick={onClickRestaurantes}> Restaurantes </button>

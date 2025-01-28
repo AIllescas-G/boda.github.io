@@ -9,7 +9,7 @@ export default function Restaurantes() {
     return (
         <section id='res' className="layout-background section-res mt-9 mb-9">
             <div className="layout-box mt-9 mb-9">
-                <h1 className=' mb-4 pb-4'>Restaurantes</h1>
+                <h1 className=' mb-4 pb-4 mt-8'>Restaurantes</h1>
                 <div className='line mt-4'></div>
 
                 <div className="container-res mt-9 mb-9 flex justify-between">

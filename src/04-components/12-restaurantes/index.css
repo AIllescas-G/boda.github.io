@@ -1,22 +1,29 @@
 .section-res {
-    background-color: var(--color-fondo);
-    height: auto;
+  background-color: var(--color-fondo);
+  height: auto;
 
-    h1 {
-        color: var(--primary);
-      }
-      small {
-        color: var(--primary);
-      }
-      p {
-        color: var(--primary);
-      }
+  h1 {
+    color: var(--primary);
+  }
+  small {
+    color: var(--primary);
+  }
+  p {
+    color: var(--primary);
+  }
 
-
-    .button-res {
-        margin-top: var(--spacing-30);
-        padding-bottom: var(--spacing-30);
-        border: solid 1px var(--color-gray-1);
-        border-radius: 6px;
-    }
+  .button-res {
+    width: var(--spacing-80);
+    margin-top: var(--spacing-30);
+    padding-bottom: var(--spacing-20);
+    padding-top: var(--spacing-20);
+    color: var(--color-gray-3);
+    border: solid 1px var(--color-gray-1);
+    border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+  }
+  :hover.button-res {
+    background-color: var(--color-gray-1);
+  }
 }

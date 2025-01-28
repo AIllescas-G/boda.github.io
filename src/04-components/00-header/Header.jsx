@@ -9,7 +9,7 @@ export default function Header() {
         <header id='home' className='layout-background'>
             <h2>¡Nos Casamos!</h2>
             <div className='img'>
-                <img className="img" src={img1} alt="Imagen de Japón" />
+                <img className="img" src={img1} alt="Nos casamos" />
             </div>
             
         </header>
